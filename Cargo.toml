@@ -1,0 +1,14 @@
+[package]
+name = "marching_squares_proto"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+indices_macro = { path = "./indices_macro" }
+macroquad = "0.3.8"
+nalgebra = "0.29.0"
+serde = { version = "1.0", features = ["derive"] }
+image = "0.23.14"
+ron = "0.6.5"
